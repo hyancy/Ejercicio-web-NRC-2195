@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Poppins Semi';
+    src: url(../fonts/poppins/Poppins-SemiBold.otf);
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+header {
+    background: #1a6a17;
+}
+
+header .logo, .lista, .buscador {
+    display: inline-block;
+}
+
+header .logo img {
+    width: 232px;
+}
+
+header .logo {
+    margin: 35px 0px 31px 205px;
+
+}
+
+header .lista {
+    vertical-align: top;
+    margin-top: 28px;
+}
+
+header .lista ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 9px;
+}
+
+header .lista ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13.7px;
+    font-weight: bold;
+}
+
+header .lista ul li:first-child a {
+    text-transform: uppercase;
+}
+
+header .buscador {
+    float: right;
+    margin: 55px 222px 0px 0px;
+}
+
+header .buscador a {
+    background: white;
+    padding: 7px 14px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+nav ul {
+    margin-left: 200px;
+    margin-top: 23px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 38px;
+}
+
+nav ul li a {
+    font-family: 'Poppins Semi';
+    font-size: 14.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #67696d;
+}
+
+section {
+    margin-top: 70px;
+}
+section .titulo .rayito, section .titulo div{
+    display: inline-block;
+}
+
+section .titulo:first-child{
+    margin: 28px 0px 0px 205px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+section .titulo .rayito{
+    background: #1a6a17;
+}
+
+section .titulo .rayito p{
+    margin: 0px;
+    padding: 6px 11px;
+}
+
+section .titulo div h3{
+    padding:0px;
+    margin:0px;
+    margin-left: 18px;
+    font-size: 17.5px;
+    text-transform: uppercase;
+    color: #404140;
+}
+
+section .mangas{
+    margin-left: 205px;
+    margin-bottom: 100px;
+}
+
+section .mangas article .caratula img{
+    width: 100px;
+    margin-top: 32px;
+}
+
+section .mangas article .caratula, section .mangas article .descripcion{
+    display: inline-block;
+}
+
+section .mangas article .descripcion{
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+section .mangas article .descripcion .titulo{
+    margin-left: 0px;
+    border-bottom: 0px;
+}
+
+section .mangas article .descripcion{
+    margin-top:5px;
+}
+
+section .mangas article .descripcion .titulo h5{
+    margin-left: 0px;
+    margin-bottom:10px;
+    padding: 0px;
+    color: black;
+    font-size: 16px;
+    width: 80%;
+}
+
+section .mangas article .descripcion .calificacion p{
+    margin:10px;
+}
+
+section .mangas article .descripcion  .capitulos .chapter, section .mangas article .descripcion  .capitulos .fecha{
+    display: inline-block;
+}
+
+section .mangas article .descripcion .capitulos .chapter ul, section .mangas article .descripcion .capitulos .fecha ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+section .mangas article .descripcion .capitulos .chapter ul li, section .mangas article .descripcion .capitulos .fecha ul li{
+    list-style: none;
+}
+
+section .mangas article .descripcion .capitulos .chapter ul li{
+    background: #ebebeb;
+    margin-top: 5px;
+    padding: 3px 9px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+}
+
+section .mangas article .descripcion .capitulos .chapter ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+section .mangas article .descripcion .capitulos .fecha {
+    vertical-align: top;
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+section .mangas article .descripcion .capitulos .fecha ul li{
+    margin-bottom: 18px;
+}
+
+section .mangas article .descripcion .capitulos .fecha ul li:first-child a{
+    background: #ba231f;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins Semi';
+    font-size: 10px;
+    padding: 2px 4px;
+}
+
+section .mangas article .descripcion .capitulos .fecha ul li a{
+   text-decoration: none;
+   font-size: 12px;
+   color: #6c6c6c; 
+}
+
+
+section .cards2{
+    margin-top: 0px;
+}
+
+section .cards2 .mangas{
+    margin-top: 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 28px;
+    -webkit-box-shadow: 0px -2px 4px 0px #e1e1e1;
+    -moz-box-shadow: 0px -2px 4px 0px #e1e1e1;
+    box-shadow: 0px -2px 4px 0px #e1e1e1;
+}
+
+
+footer .lista ul li {
+    display: inline-block;
+    margin-right: 19px;
+    margin-top: 70px;
+}
+
+footer .lista ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* color: #6d6d6d; */
+    color: #5a6074;
+}
+
+footer .lista ul li a::after {
+    content: "\|";
+    margin-left: 16px;
+}
+
+footer .lista ul li:last-child a::after {
+    content: "";
+}
+
+footer .lista ul li:nth-child(2) a{
+    text-transform: capitalize;
+}
+
+footer .copy {
+    width: 76%;
+    margin: 0px auto;
+}
+
+footer .copy p {
+    font-size: 12.5px;
+    color: #a3a3a3;
+}
+
